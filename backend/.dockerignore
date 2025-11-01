@@ -1,0 +1,23 @@
+# Archivos y carpetas innecesarias
+__pycache__/
+*.pyc
+*.pyo
+*.log
+*.tmp
+
+# Entornos virtuales
+env/
+venv/
+
+# Archivos de entorno y configuración local
+*.env
+.env*
+
+# Control de versiones y editores
+.git/
+.gitignore
+*.idea/
+*.vscode/
+
+# Archivos del frontend (no necesarios en el backend)
+frontend/

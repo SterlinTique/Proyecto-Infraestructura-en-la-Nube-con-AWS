@@ -1,0 +1,133 @@
+/* Estilos generales */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #d67e2c91;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px;
+}
+
+/* Contenedor de formularios */
+form, .formulario {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    margin-bottom: 20px;
+}
+
+/* Títulos */
+h1, h2 {
+    margin-bottom: 20px;
+    color: #333333;
+}
+
+/* Etiquetas y campos */
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="number"],
+textarea {
+    width: 100%;
+    height: 40px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+textarea {
+    height: 80px;
+    resize: vertical;
+}
+
+/* Botones */
+input[type="submit"],
+button {
+    width: 100%;
+    height: 40px;
+    background-color: #4caf50;
+    color: #ffffff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+input[type="submit"]:hover,
+button:hover {
+    background-color: #3e8e41;
+}
+
+/* Enlaces */
+a {
+    color: #010029;
+    text-decoration: underline;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+/*Para los enlaces de listar y crear*/
+.botones {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+.botones button {
+    width: 200px;
+    text-align: center;
+}
+
+/* Mensajes */
+#error {
+    color: red;
+    margin-bottom: 10px;
+}
+
+#exito {
+    color: green;
+    margin-bottom: 10px;
+}
+
+/* Listas */
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 20px;
+    width: 100%;
+    max-width: 600px;
+}
+
+li {
+    background-color: #f5f5f5;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+li p {
+    margin-top: 5px;
+    font-size: 14px;
+    color: #555;
+}
