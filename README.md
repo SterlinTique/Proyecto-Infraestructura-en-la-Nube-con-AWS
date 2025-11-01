@@ -1,4 +1,4 @@
-# Proyecto de Login y CRUD con Flask y PostgreSQL – Sistemas Operativos
+# Proyecto de Login y CRUD con Flask y PostgreSQL
 
 Este proyecto fue desarrollado como parte del curso de Sistemas Operativos, con el objetivo de aplicar conceptos clave como contenedorización y modularidad; y ahora utilizado en el curso Insfraestructura en la Nube con AWS para despliegue en la nube y uso de servicios AWS. La aplicación incluye un sistema de login/registro (con hasheo de contraseñas) y un CRUD para gestionar productos, con arquitectura desacoplada entre frontend y backend.
 
