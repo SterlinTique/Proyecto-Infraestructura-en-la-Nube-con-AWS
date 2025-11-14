@@ -35,8 +35,8 @@ Este proyecto fue desarrollado como parte del curso de Sistemas Operativos, con 
 │ └── docker-compose.yml 
 ├── frontend/ 
 │ ├── index.html 
-│ ├── login.html 
-│ ├── registro.html 
+│ ├── dashboard.html 
+│ ├── loginRegistro.html 
 │ ├── productos/ 
 │ │ ├── crear.html 
 │ │ ├── editar.html 
@@ -44,13 +44,13 @@ Este proyecto fue desarrollado como parte del curso de Sistemas Operativos, con 
 │ ├── css/ 
 │ │ └── estilos.css 
 │ └── js/ 
-│ ├── api.js 
-│ ├── login.js 
-│ ├── registro.js 
-│ ├── index.js 
-│ ├── crear.js 
-│ ├── listar.js 
-│ └── editar.js
+│ │ ├── api.js 
+│ │ ├── dashboard.js 
+│ │ ├── loginRegistro.js 
+│ │ ├── index.js 
+│ │ ├── crear.js 
+│ │ ├── listar.js 
+│ │ └── editar.js
 
 
 ## Funcionalidades
